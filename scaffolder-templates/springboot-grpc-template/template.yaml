@@ -71,7 +71,7 @@ spec:
 
     - id: publish
       name: Publish
-      action: publish:github
+      action: publish:gitlab
       input:
         allowedHosts: ["gitlab.com"]
         description: This is ${{ parameters.component_id }}
